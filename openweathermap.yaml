@@ -303,6 +303,8 @@ paths:
           description: prod
   /history/city:
     get:
+      tags:
+        - Weather endpoints
       summary: Hourly Weather history
       description: Acess hourly historical weather data for any location on the globe
       operationId: get-history-city
